@@ -1,0 +1,54 @@
+nav {
+	background-color: white;
+	display: flex;	
+	justify-content: space-between;
+		height: 13vh;
+	width: 100%;
+}
+.nav_l {
+	background-color: white;
+    padding-left: 30px;
+    padding-top: 11px;
+	padding-bottom: 11px;
+}
+.nav_m li {
+	list-style-type: none;
+	display: inline-flex;
+}
+.nav_c li a {
+  color: black;
+  font-weight:bold;
+  font-size: 1.2rem;
+  font-family: "Trebuchet MS", sans-serif;
+  text-decoration: none;
+  line-height: 4rem;
+  padding-right: 2rem;
+}
+.nav_c li a:hover {
+  font-size: 1.5rem;
+  text-shadow:  2px 2px lightblue;
+}
+.nav_r {
+	background-color: white;
+    width: 11%;
+    padding-left:15px;
+    padding-top: 27px;
+	padding-right: 9.8px;
+	padding-bottom: 22px;
+}
+.nav_r {
+	width: 200px;
+}
+.nav_r button {
+	background-color:rgb(204,0,0);
+	color: white;
+	outline: none;
+	font-size: 16px;
+	font-weight: bold;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-radius: 20px;
+	width: 180px;
+}

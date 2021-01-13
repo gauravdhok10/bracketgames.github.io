@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 16px/1.6 Arial, sans-serif;
+    display: block;
+    box-sizing: border-box;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 11%, rgba(0, 212, 255, 1) 44%, rgba(8, 14, 32, 1) 91%);
+}
+
+
+/* ~~ Top Navigation Bar ~~ */
+
+nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 13vh;
+    width: 100%;
+}
+
+.nav_l {
+    background-color: white;
+    padding-left: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+.nav_m li {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.nav_c li a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "Trebuchet MS", sans-serif;
+    text-decoration: none;
+    line-height: 4rem;
+    padding-right: 2rem;
+}
+
+.nav_c li a:hover {
+    font-size: 1.5rem;
+    text-shadow: 2px 2px lightblue;
+}
+
+.nav_r {
+    background-color: white;
+    width: 11%;
+    padding-left: 15px;
+    padding-top: 27px;
+    padding-right: 9.8px;
+    padding-bottom: 22px;
+}
+
+.container {
+    background-color: white;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    width: 40%;
+    max-width: 100%;
+}
+
+.nav_r {
+    width: 200px;
+}
+
+.nav_r button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    width: 180px;
+}
+
+.header {
+    background-color: #fff;
+    padding: 10px 40px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 25px 40px;
+}
+
+.form-control {
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 5px;
+    width: 94%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: lightgreen;
+}
+
+input[type="submit"] {
+    padding: 9px 15px;
+    background: rgba(60, 221, 106, 0.727);
+    border: 0 none;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#check {
+    margin-left: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    padding-right: 10px;
+}
+
+
+/* The footer  */
+
+footer {
+    margin-top: 10vh;
+}
+
+.footer-m {
+    background: rgb(8, 14, 32);
+    background: linear-gradient(180deg, rgba(8, 14, 32, 1) 0%, rgba(62, 25, 45, 1) 99%, rgba(0, 212, 255, 1) 33383%);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 8vh 50px 5px 50px;
+    border-top-color: rgb(8, 14, 32);
+}
+
+.footer-m .footer-left,
+.footer-m .footer-center,
+.footer-m .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-m .footer-left {
+    width: 30%;
+}
+
+.footer-m h3 {
+    color: #ffffff;
+    font: normal 36px;
+    margin: 0;
+}
+
+
+/* The company logo */
+
+.footer-m .footer-left img {
+    width: 30%;
+}
+
+
+/* Footer links */
+
+.footer-m .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-m .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    color: inherit;
+}
+
+.footer-m .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-m .footer-center {
+    width: 35%;
+}
+
+.footer-left img {
+    height: 50px;
+    width: 70px;
+}
+
+.footer-m .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    line-height: 42px;
+    vertical-align: middle;
+}
+
+.footer-m .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-m .footer-center p span {
+    font-size: 14px;
+}
+
+.footer-center a {
+    padding: 5px;
+    color: cyan;
+}
+
+
+/* Footer Right */
+
+.footer-m .footer-right {
+    width: 30%;
+}
+
+.footer-m .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-m .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
